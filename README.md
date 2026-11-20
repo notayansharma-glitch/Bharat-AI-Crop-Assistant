@@ -14,11 +14,11 @@ This project aims to provide fast disease detection and guidance directly on a m
 
 Solution:
 
-The user captures or selects an image of a crop leaf.
+The user captures or selects an image of a crop leaf. The image must have a white background .
 
 A TensorFlow Lite vision model analyzes the image and identifies the disease.
 
-The detected disease is passed to Llama 3.2 running locally using ExecuTorch.
+The detected disease is passed to Llama 3.2 1B running locally using ExecuTorch.
 
 The system then generates treatment recommendations and displays them to the user.
 
@@ -29,7 +29,7 @@ Features:
 Offline disease detection
 Android application
 TensorFlow Lite vision model
-Llama 3.2 integration
+Llama 3.2 1B integration
 ExecuTorch deployment
 English recommendations
 Hindi recommendations
@@ -41,7 +41,7 @@ How It Works:
 User selects or captures a crop leaf image.
 The image is analyzed by the TensorFlow Lite model.
 The disease is identified.
-The result is passed to Llama 3.2.
+The result is passed to Llama 3.2 1B.
 Treatment recommendations are generated.
 The output is displayed to the user.
 

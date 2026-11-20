@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">टमाटर स्वास्थ्य एआई</string>
+    <string name="title_app">🍅 टमाटर स्वास्थ्य एआई</string>
+    <string name="btn_take_photo">📷  पत्ती की फोटो लें</string>
+    <string name="btn_upload_gallery">📂  गैलरी से अपलोड करें</string>
+    <string name="tv_result_default">परिणाम: फोटो का इंतजार है...</string>
+    <string name="tv_recommendation_default">उपचार की सलाह यहाँ दिखाई देगी।</string>
+    <string name="title_expert_advice">🌾 एआई कृषि विशेषज्ञ सलाह</string>
+    <string name="thinking_status">🤖 एआई कृषि वैज्ञानिक विश्लेषण कर रहे हैं...</string>
+    <string name="btn_lang_toggle">English</string>
+    <string name="footer_credit">MADE WITH ❤️ BY AYAN SHARMA</string>
+
+    <string name="result_high_confidence">अत्यधिक संभावना: %1$s</string>
+    <string name="result_moderate_confidence">संभावना: %1$s</string>
+    <string name="result_unsure_confidence">पक्का नहीं: %1$s</string>
+
+    <string name="btn_view_confidence">और देखें</string>
+    <string name="btn_hide_confidence">कम देखें</string>
+    <string name="confidence_value_format">मॉडल सटीकता: %1$.2f%%</string>
+
+    <string name="moderate_verify_note">\n\n(नोट: कृपया अधिक पास से ली गई फोटो से पुष्टि करें।)</string>
+    <string name="unsure_verify_note">इस पहचान के बारे में पक्का नहीं है। इसकी पुष्टि करना या किसी पेशेवर से सलाह लेना अच्छा रहेगा।</string>
+    <string name="extremely_low_unable">निर्धारित करने में असमर्थ। कृपया सफेद पृष्ठभूमि (जैसे कागज) के साथ स्पष्ट फोटो पुनः अपलोड करें या दूसरी फोटो का उपयोग करें।</string>
+
+    <string name="result_format">परिणाम: %1$s</string>
+    <string name="model_loaded">एआई मॉडल सफलतापूर्वक लोड हुआ!</string>
+    <string name="model_error">मॉडल त्रुटि: %1$s</string>
+    <string name="invalid_prediction">त्रुटि: अमान्य पूर्वानुमान सूचकांक</string>
+    <string name="unsure_result">परिणाम: अनिश्चित</string>
+    <string name="confidence_low">⚠️ सटीकता कम है (%1$.2f%%)।\nकृपया सुनिश्चित करें कि पत्ती स्पष्ट और रोशनी में हो। पुनः प्रयास करें!</string>
+    <string name="warning_yellow_bg">पृष्ठभूमि बहुत पीली है। अधिक सटीक परिणाम के लिए कृपया पत्ती को केंद्र में रखें।</string>
+    <string name="uncertain_photo">अनिश्चित परिणाम। कृपया पत्ती की अधिक स्पष्ट फोटो लें।</string>
+    <string name="no_image_captured">कोई फोटो नहीं ली गई</string>
+    <string name="no_image_selected">कोई फोटो चुनी नहीं गई</string>
+    <string name="failed_gallery_image">गैलरी से फोटो लोड करने में विफल</string>
+    <string name="camera_permission_required">फोटो लेने के लिए कैमरा अनुमति आवश्यक है</string>
+    <string name="unable_camera">कैमरा खोलने में असमर्थ: %1$s</string>
+    <string name="inference_error">पूर्वानुमान त्रुटि: %1$s</string>
+    <string name="model_not_loaded">मॉडल या लेबल ठीक से लोड नहीं हुए</string>
+
+    <!-- Bottom Tabs & About App Strings -->
+    <string name="tab_ai">🌾 एआई जांच</string>
+    <string name="tab_about">ℹ️ ऐप के बारे में</string>
+    <string name="about_title">ऐप के बारे में</string>
+    <string name="about_subtitle">आर्म भारत एआई एसओसी चैलेंज • समस्या विवरण 1</string>
+    <string name="about_creators_header">प्रमुख निर्माता</string>
+    <string name="about_creators_names">• Ayan Sharma\n• Mohit Chaudhary\n• Anem Nitin</string>
+    <string name="about_project_header">प्रोजेक्ट और मॉडल विवरण</string>
+    <string name="about_project_desc">आधुनिक Llama 3.2 1B ऑन-डिवाइस एलएलएम मॉडल द्वारा संचालित फसल एआई रोग पहचान और विशेषज्ञ कृषि सलाह।\n\nआर्म भारत एआई एसओसी चैलेंज (समस्या विवरण 1) के लिए विकसित।</string>
+    <string name="about_footer_date">विकसित: सितंबर 2026 ❤️</string>
+</resources>
